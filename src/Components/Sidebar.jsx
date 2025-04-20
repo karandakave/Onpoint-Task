@@ -30,7 +30,7 @@ export default function SidebarWithNavbar() {
             <div className="flex-1 flex flex-col">
                 {/* Top Navbar */}
                 <header className="flex items-center justify-between bg-white shadow px-4 py-3 md:ml-64">
-                    <button onClick={() => setSidebarOpen(true)} className="md:hidden">
+                    <button onClick={() => setSidebarOpen(true)} className="md:hidden ">
                         <CiMenuBurger className="w-6 h-6 text-gray-800" />
                     </button>
                     <h2 className="text-xl font-semibold">Dashboard</h2>
